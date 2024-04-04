@@ -27,7 +27,7 @@ momo-store
 
 ## Описание
 1) Директория backend содержит исходный код бэкэнда на языке Go, Dockerfile для контейниризации приложения, файл backend_build.yml, в котором описаны этапы CI/CD процессов;
-2) Директория backend содержит исходный код бэкэнда на языке Go, Dockerfile для контейниризации приложения, файл frontend_build.yml, в котором описаны этапы CI/CD процессов;
+2) Директория frontend содержит исходный код фронтенда на языке nodejs, Dockerfile для контейниризации приложения, файл frontend_build.yml, в котором описаны этапы CI/CD процессов;
 3) Директория infrastructure/terraform содержит файлы конфигурации для развертывания инфраструктуры в Yandex Cloud. Также содержит директория momo-images, содержащая картинки, которые будут загружаться в новый бакет Yandex Object Storage;
 4) Директория infrastructure/kubernetes содержит kubernetes-манифесты для публикации приложения (frontend и backend) в кластере K8s;
 5) Директория infrastructure/helm содержит helm чарты для приложения momo-store, grafana, prometheus;
